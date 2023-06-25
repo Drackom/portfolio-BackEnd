@@ -1,4 +1,3 @@
-
 package com.miportfolioapp.SpringBoot.model;
 
 import jakarta.persistence.Entity;
