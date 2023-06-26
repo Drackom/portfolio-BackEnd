@@ -5,6 +5,7 @@ import com.miportfolioapp.SpringBoot.service.IUserService;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,6 +25,7 @@ public class Controller {
         persoServ.crearUser(pers);
     }
     
+    @CrossOrigin(origins = "https://miportfolio-3f72c.web.app/iniciar-sesion")
     @GetMapping ("/ver/users")
     @ResponseBody
     public List<User> verUsers () {
