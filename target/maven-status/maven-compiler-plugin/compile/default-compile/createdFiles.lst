@@ -1,6 +1,7 @@
 com\miportfolioapp\SpringBoot\WebConfig.class
 com\miportfolioapp\SpringBoot\service\UserService.class
 com\miportfolioapp\SpringBoot\controller\Controller.class
+com\miportfolioapp\SpringBoot\Application$1.class
 com\miportfolioapp\SpringBoot\repository\UserRepository.class
 com\miportfolioapp\SpringBoot\model\User.class
 com\miportfolioapp\SpringBoot\service\IUserService.class
