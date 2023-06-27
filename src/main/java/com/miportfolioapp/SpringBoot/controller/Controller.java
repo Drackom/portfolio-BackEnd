@@ -20,18 +20,20 @@ public class Controller {
     @Autowired
     private IUserService persoServ;
     
+    @CrossOrigin(origins = "/**")
     @PostMapping ("/new/user")
     public void agregarUser (@RequestBody User pers) {
         persoServ.crearUser(pers);
     }
     
-    @CrossOrigin(origins = "https://miportfolio-3f72c.web.app")
+    @CrossOrigin(origins = "/**")
     @GetMapping ("/ver/users")
     @ResponseBody
     public List<User> verUsers () {
         return persoServ.verUsers();
     }
     
+    @CrossOrigin(origins = "/**")
     @DeleteMapping ("/delete/{id}")
     public void borrarUser (@PathVariable Long id) {
         persoServ.borrarUser(id);

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.miportfolioapp.SpringBoot.ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.321 s - in com.miportfolioapp.SpringBoot.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.85 s - in com.miportfolioapp.SpringBoot.ApplicationTests
