@@ -25,7 +25,7 @@ public class Controller {
         persoServ.crearUser(pers);
     }
     
-    @CrossOrigin(origins = "https://miportfolio-3f72c.web.app/iniciar-sesion")
+    @CrossOrigin(origins = "https://miportfolio-3f72c.web.app")
     @GetMapping ("/ver/users")
     @ResponseBody
     public List<User> verUsers () {
